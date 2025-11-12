@@ -9,10 +9,10 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          50: '#f0f9ff',
-          500: '#3b82f6',
-          600: '#2563eb',
-          700: '#1d4ed8',
+          50: '#1b3a6fff',
+          500: '#163567ff',
+          600: '#213255ff',
+          700: '#1d2e5cff',
         },
       },
       animation: {

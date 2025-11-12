@@ -1,4 +1,4 @@
-# BMI Calculator
+# BMI Calculator App
 
 A modern, responsive BMI (Body Mass Index) calculator built with Next.js 14, TypeScript, and Tailwind CSS. Features advanced SEO optimization and is deployed on Vercel.
 
@@ -62,37 +62,3 @@ npm run dev
 3. Deploy with default settings
 
 The app will be automatically deployed with optimal settings for Next.js.
-
-## SEO Features
-
-- Meta tags optimization
-- Open Graph tags for social sharing
-- Twitter Card support
-- Structured data (JSON-LD)
-- Sitemap generation
-- Robots.txt
-- Canonical URLs
-
-## Performance
-
-- Server-side rendering (SSR)
-- Image optimization
-- Font optimization
-- CSS optimization
-- JavaScript minification
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Disclaimer
-
-This BMI calculator is for informational purposes only and should not be used as a substitute for professional medical advice. Always consult with a healthcare provider for medical guidance.

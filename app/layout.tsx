@@ -15,10 +15,10 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://bmi-calculator.vercel.app'),
   title: {
-    default: 'BMI Calculator - Free Body Mass Index Calculator',
+    default: 'BMI Calculator - Body Mass Index Calculator',
     template: '%s | BMI Calculator',
   },
-  description: 'Free online BMI calculator to calculate your Body Mass Index. Get instant results with metric and imperial units. Check if your weight is healthy with our easy-to-use BMI tool.',
+  description: 'BMI calculator to calculate your Body Mass Index. Get instant results with metric and imperial units. Check if your weight is healthy with our easy-to-use BMI tool.',
   keywords: [
     'BMI calculator',
     'body mass index',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     url: 'https://bmi-calculator.vercel.app',
     siteName: 'BMI Calculator',
     title: 'BMI Calculator - Free Body Mass Index Calculator',
-    description: 'Free online BMI calculator to calculate your Body Mass Index. Get instant results with metric and imperial units.',
+    description: 'BMI calculator to calculate your Body Mass Index. Get instant results with metric and imperial units.',
     images: [
       {
         url: '/og-image.png',
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'BMI Calculator - Free Body Mass Index Calculator',
-    description: 'Free online BMI calculator to calculate your Body Mass Index. Get instant results with metric and imperial units.',
+    description: 'BMI calculator to calculate your Body Mass Index. Get instant results with metric and imperial units.',
     images: ['/og-image.png'],
   },
   robots: {
@@ -97,7 +97,7 @@ export default function RootLayout({
             {children}
           </main>
           <footer className="py-4 text-center text-sm text-gray-500">
-            <p>&copy; 2024 BMI Calculator. For informational purposes only.</p>
+            <p>&copy; 2025 BMI Calculator By Daniel Odulate.</p>
           </footer>
         </div>
       </body>

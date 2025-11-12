@@ -11,7 +11,7 @@ export default function HomePage() {
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
             Calculate your Body Mass Index quickly and easily. Get instant results 
-            and understand your weight status with our free online BMI calculator.
+            and understand your weight status.
           </p>
         </div>
 
@@ -81,17 +81,6 @@ export default function HomePage() {
                 </li>
               </ol>
             </div>
-
-            <div className="card bg-amber-50 border-amber-200">
-              <h2 className="text-xl font-semibold text-amber-800 mb-3">
-                Important Note
-              </h2>
-              <p className="text-amber-700 text-sm leading-relaxed">
-                BMI is a screening tool and not a diagnostic tool. It doesn&apos;t account for 
-                muscle mass, bone density, or other factors. Always consult with a healthcare 
-                provider for personalized medical advice.
-              </p>
-            </div>
           </div>
         </div>
 
@@ -103,7 +92,7 @@ export default function HomePage() {
               "@context": "https://schema.org",
               "@type": "WebApplication",
               "name": "BMI Calculator",
-              "description": "Free online BMI calculator to calculate your Body Mass Index with metric and imperial units.",
+              "description": "BMI calculator to calculate your Body Mass Index with metric and imperial units.",
               "url": "https://bmi-calculator.vercel.app",
               "applicationCategory": "HealthApplication",
               "operatingSystem": "Any",

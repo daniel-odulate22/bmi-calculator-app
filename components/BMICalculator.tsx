@@ -86,7 +86,7 @@ export default function BMICalculator() {
         </div>
 
         {/* Unit Toggle */}
-        <div className="flex bg-gray-100 rounded-lg p-1 mb-6">
+        <div className="flex bg-gray-400 rounded-lg p-1 mb-6">
           <button
             onClick={() => setUnit('metric')}
             className={`flex-1 py-2 px-4 rounded-md text-sm font-medium transition-colors ${
@@ -95,7 +95,7 @@ export default function BMICalculator() {
                 : 'text-gray-600 hover:text-gray-800'
             }`}
           >
-            Metric
+            Metric system
           </button>
           <button
             onClick={() => setUnit('imperial')}
@@ -105,7 +105,7 @@ export default function BMICalculator() {
                 : 'text-gray-600 hover:text-gray-800'
             }`}
           >
-            Imperial
+            Imperial system
           </button>
         </div>
 
@@ -197,11 +197,6 @@ export default function BMICalculator() {
           </div>
         )}
       </div>
-
-      {/* Disclaimer */}
-      <p className="text-xs text-gray-500 text-center mt-4 px-4">
-        * This calculator is for informational purposes only. Consult a healthcare provider for medical advice.
-      </p>
     </div>
   );
 }
